@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shival Gupta - Resume</title>
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,9 +59,30 @@
             margin-top: 2px;
         }
     </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+    <script>
+        function downloadFunction() {
+            var element = document.getElementById('body');
+            var currentDate = new Date();
+            var formattedDate = currentDate.toLocaleDateString('en-GB').replace(/\//g, '-');
+            var docName = 'Shival_Gupta_Resume_' + formattedDate + '.pdf';
+            html2pdf(element, {
+                filename: docName
+            }).save();
+        }
+    </script>
+    <script>
+        function printFunction() { 
+            window.print(); 
+        }
+    </script>
+    
 </head>
-<body>
+<body id="body">
     <header>
+        <button onclick="downloadFunction()">Download</button>
+        <button onclick="printFunction()">Print</button>
         <h1>Shival Gupta</h1>
         <p>Patna, Bihar, India, 800001</p>
         <p><a href="tel:+917091041542">+91 7091041542</a> | <a href="mailto:sgupta.5545@gmail.com">sgupta.5545@gmail.com</a> | <a href="https://shival-gupta.github.io/" target="_blank">shival-gupta.github.io</a></p>
