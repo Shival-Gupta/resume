@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.subsection {
+    margin-left: 20px;
+    margin-top: 2px;
+}
