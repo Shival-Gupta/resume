@@ -59,17 +59,21 @@
             margin-top: 2px;
         }
     </style>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js" integrity="sha512-w3u9q/DeneCSwUDjhiMNibTRh/1i/gScBVp2imNVAMCt6cUHIw6xzhzcPFIaL3Q1EbI2l+nu17q2aLJJLo4ZYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         function downloadFunction() {
-            var element = document.getElementById('body');
-            var currentDate = new Date();
-            var formattedDate = currentDate.toLocaleDateString('en-GB').replace(/\//g, '-');
-            var docName = 'Shival_Gupta_Resume_' + formattedDate + '.pdf';
-            html2pdf(element, {
-                filename: docName
-            }).save();
+            const element = document.getElementById('body');
+            const formattedDate = new Date().toLocaleDateString('en-GB').replace(/\//g, '-');
+            const options = {
+                margin: 10,
+                filename: 'Shival_Gupta_Resume_' + formattedDate + '.pdf',
+                image: { type: 'jpeg', quality: 1.0 }, // Use a higher quality JPEG
+                html2canvas: { scale: 4 }, // Increase the scale for high resolution
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+    
+            html2pdf(element, options);
         }
     </script>
     <script>
