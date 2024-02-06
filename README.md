@@ -13,25 +13,28 @@ Seeking a challenging role in AI, Robotics, and 3D development where I can lever
   - Vellore Institute of Technology, Chennai
   - 2021 - 2025
 
-- **75.67% | Senior Secondary (XII), Science (PCM)**
+- **Senior Secondary (XII), Science (PCM)**
   - St. Karen's High School, Gola Road, Patna (CBSE)
   - Year of completion: 2020
+  - Percentage: 75.67%
 
-- **62.167% | Secondary (X)**
+- **Secondary (X)**
   - St. Karen's High School, Gola Road, Patna (CBSE)
   - Year of completion: 2018
+  - Percentage: 62.167%
 
 ## Skills
 
-- **Programming Languages:** C, C++, C#, Java, JavaScript, TypeScript, Python (Intermediate to Advanced)
-- **Frameworks:** Next.js, React, Socket.io, Prisma, Tailwind, MySQL, PostgreSQL
-- **3D Animation & Game Development:** Blender, Unity Engine, Unreal Engine, After Effects
-- **IoT & Robotics:** Arduino, Raspberry Pi, ROS, MQTT, ThingSpeak
+- **Programming Languages:** Proficient in C, C++, C#, Java, JavaScript, TypeScript, and Python.
+- **Frameworks:** Experienced in Next.js, React, Socket.io, Prisma, Tailwind, MySQL, PostgreSQL, TensorFlow, and PyTorch.
+- **3D Animation & Game Development:** Skilled in Blender, Unity Engine, Unreal Engine, and After Effects.
+- **IoT & Robotics:** Knowledgeable in Arduino, Raspberry Pi, ROS, MQTT, and ThingSpeak.
+- **Additional Skills:** Proficient in machine learning, deep learning, computer vision, and robotics.
 
 ## Projects
 
-- **B2B Platform:** Created a B2B solution for Airtel Payments Bank, enabling efficient distribution, reimbursement, and management of employee salaries and tasks for business owners.
-- **Voice AI:** Developed a Python-based voice assistant resembling Google Voice Assistant.
+- **B2B Platform:** Developed a B2B solution for Airtel Payments Bank, facilitating business owners in distributing reimbursements, managing employee salaries, and overseeing employee management tasks.
+- **Voice AI:** Created a Python-based voice assistant inspired by Google Voice Assistant.
 - **Quiz App:** Built a Java and MySQL-based quiz application with login, leaderboard, and timer features.
 - **War Game:** Designed a 3D multiplayer First Person Shooter (FPS) game inspired by CS:GO, using Unity Engine and Photon Network.
 
@@ -43,7 +46,6 @@ Seeking a challenging role in AI, Robotics, and 3D development where I can lever
 
 - **Piano Teacher, White Hat Jr | Oct 2021 - Jan 2022**
   - Instructed and mentored global students, nurturing their musical skills.
-
 
 ## Positions of Responsibility
 
