@@ -51,3 +51,8 @@ li {
     margin-left: 20px;
     margin-top: 2px;
 }
+
+#download-button,
+#print-button {
+    margin-bottom: 20px;
+}
