@@ -1,11 +1,11 @@
 # Shival Gupta - Resume
 
-- **Location:** Gola Road, Patna, 801503
+- **Location:** Chennai, India
 - **Contact:** +91 7091041542 | [Email](mailto:sgupta.5545@gmail.com) | [Portfolio](https://shival-gupta.github.io/)
 
 ## Objective
 
-Creative 3D enthusiast and skilled programmer passionate about pushing the boundaries of game design and metaverse development through expertise in 3D animation, game creation, and IoT projects.
+Seeking a challenging role in AI, Robotics, and 3D development where I can leverage my skills, expertise, and passion for innovation to contribute to organizational success and create immersive experiences.
 
 ## Education
 
@@ -13,11 +13,11 @@ Creative 3D enthusiast and skilled programmer passionate about pushing the bound
   - Vellore Institute of Technology, Chennai
   - 2021 - 2025
 
-- **Senior Secondary (XII), Science (PCM)**
+- **75.67% | Senior Secondary (XII), Science (PCM)**
   - St. Karen's High School, Gola Road, Patna (CBSE)
   - Year of completion: 2020
 
-- **Secondary (X)**
+- **62.167% | Secondary (X)**
   - St. Karen's High School, Gola Road, Patna (CBSE)
   - Year of completion: 2018
 
@@ -25,19 +25,25 @@ Creative 3D enthusiast and skilled programmer passionate about pushing the bound
 
 - **Programming Languages:** C, C++, C#, Java, JavaScript, TypeScript, Python (Intermediate to Advanced)
 - **Frameworks:** Next.js, React, Socket.io, Prisma, Tailwind, MySQL, PostgreSQL
-- **3D Animation & Game Development:** Blender, Unity Engine, Unreal Engine
-- **IoT & Robotics:** Arduino, Raspberry Pi, Sensors, Actuators, MQTT Protocol, ThingSpeak API
+- **3D Animation & Game Development:** Blender, Unity Engine, Unreal Engine, After Effects
+- **IoT & Robotics:** Arduino, Raspberry Pi, ROS, MQTT, ThingSpeak
 
 ## Projects
 
-- **Voice AI:** Created a Python-based voice assistant inspired by Google Voice Assistant.
-- **Quiz App:** Built a Java and MySQL-based quiz application with login, leaderboard, timer, and non-timer modes.
-- **War Game:** Developed a 3D multiplayer First Person Shooter (FPS) game inspired by CS:GO using Unity Engine and Photon Network.
+- **B2B Platform:** Created a B2B solution for Airtel Payments Bank, enabling efficient distribution, reimbursement, and management of employee salaries and tasks for business owners.
+- **Voice AI:** Developed a Python-based voice assistant resembling Google Voice Assistant.
+- **Quiz App:** Built a Java and MySQL-based quiz application with login, leaderboard, and timer features.
+- **War Game:** Designed a 3D multiplayer First Person Shooter (FPS) game inspired by CS:GO, using Unity Engine and Photon Network.
 
 ## Experience
 
-- **Piano Teacher at White Hat Jr, Virtual | Oct 2021 - Jan 2022**
+- **Intern, Airtel Payments Bank | Sep 2023 - Oct 2023**
+  - Collaborated across teams to deliver new features on schedule and with high quality.
+  - Conducted comprehensive software testing and debugging to ensure optimal performance.
+
+- **Piano Teacher, White Hat Jr | Oct 2021 - Jan 2022**
   - Instructed and mentored global students, nurturing their musical skills.
+
 
 ## Positions of Responsibility
 
@@ -64,5 +70,5 @@ Creative 3D enthusiast and skilled programmer passionate about pushing the bound
 
 ## Additional Details
 
-- Ranked 17th among 500 entries in a college-level CTF event organized by Linux Club VITC.
-- Participated in workshops on App and Web development by Android club VITC.
+- Ranked 17th among 500 entries in a college-level CTF event "PASSWORD" organized by Linux Club VITC.
+- Participated in workshops on App and Web development conducted by Android club VITC.
