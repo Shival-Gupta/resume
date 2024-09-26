@@ -5,7 +5,6 @@ Greetings! 👋 I'm Shival Gupta, a passionate B.Tech Computer Science student s
 ## 🔍 Explore My Resume
 
 * 🌐 **View Online:** [https://shivalgupta.tech/resume/](https://shivalgupta.tech/resume/) 
-* 📄 **Download PDF:** [https://shivalgupta.tech/resume/RESUME_ShivalGupta.pdf](https://shivalgupta.tech/resume/RESUME_ShivalGupta.pdf)
 
 ## 🚀 Quick Highlights
 
