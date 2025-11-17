@@ -1,18 +1,32 @@
 # Shival Gupta's Resume
 
-Greetings! 👋 I'm Shival Gupta, a passionate B.Tech Computer Science student specializing in AI, Robotics, and 3D development. I'm eager to contribute my skills and enthusiasm to exciting projects and organizations.
+Hola! 👋 I'm Shival Gupta, a B.Tech Computer Science graduate (Class of 2025) specializing in AI, Robotics, and 3D/XR development. I'm eager to contribute my skills and enthusiasm to exciting projects and organizations.
 
 ## 🔍 Explore My Resume
 
-* 🌐 **View Online:** [https://shivalgupta.tech/resume/](https://shivalgupta.tech/resume/) 
+* 🌐 **View Online:** [https://shivalgupta.me/resume/](https://shivalgupta.me/resume/) 
 
 ## 🚀 Quick Highlights
 
-* **Skills:** Proficient in Python, Java, C++, JavaScript, and more. Experienced with Next.js, React, Three.js, TensorFlow, PyTorch, and other frameworks.
-* **Interests:** AI, Robotics, 3D development, Game Development, Machine Learning, Deep Learning, Computer Vision.
-* **Experience:** Software Development Intern at Airtel Payments Bank.
-* **Projects:** Developed VR applications, obstacle avoidance car, B2B platform, voice AI, 3D multiplayer game, and more.
+* **Languages:** Java, Python, C, C++, C#, SQL
+* **Web Development:** Next.js, Tailwind CSS, Clerk.js, Prisma ORM, PostgreSQL, WebSockets
+* **AI, Robotics & IoT:** Agentic AI, RAG, ROS, Arduino, Jetson Nano
+* **Tools & Platforms:** Docker, Blender, Unity, OpenXR (VR)
+
+* **Experience:**
+    * **XR Developer Intern** at SatoriXR (Feb 2025 – Jun 2025)
+    * **Software Developer Intern** at Airtel Payments Bank (Sep 2023 – Nov 2023)
+
+* **Key Projects:**
+    * **Autonomous Omni-Wheel Library Robot (Capstone):** Integrated Jetson Nano, ROS, and LiDAR for autonomous navigation.
+    * **Smart Home Automation (Samsung PRISM):** Built a 3D Unity simulation with an Agentic AI backend (crewAI) and WebSocket controls.
+    * **Samsung Store XR (Samsung PRISM Winner):** Developed a VR store prototype for Meta Quest using Unity and OpenXR.
 
 ## 📫 Let's Connect!
 
-Feel free to reach out if you'd like to discuss potential opportunities or collaborations. You can find me on [LinkedIn](https://www.linkedin.com/in/shival-gupta/)
+Feel free to reach out if you'd like to discuss potential opportunities or collaborations.
+
+* **Portfolio:** [shivalgupta.me](https://shivalgupta.me/)
+* **LinkedIn:** [linkedin.com/in/shival-gupta](https://linkedin.com/in/shival-gupta/)
+* **GitHub:** [github.com/shival-gupta](https://github.com/shival-gupta/)
+* **Email:** [sgupta.5545@gmail.com](mailto:sgupta.5545@gmail.com)

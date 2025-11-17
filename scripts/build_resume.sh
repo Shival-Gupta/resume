@@ -6,8 +6,7 @@ set -euo pipefail
 # Configuration
 #######################
 NAME="ShivalGupta"
-TEXFILE="RESUME.tex"
-OUT_JOBNAME="RESUME_${NAME}"
+OUT_JOBNAME="RESUME_ShivalGupta"
 README_FILE="README.md"
 
 #######################
