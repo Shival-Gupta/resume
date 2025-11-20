@@ -1,0 +1,35 @@
+# --- LaTeX Build Artifacts ---
+# These are generated inside the 'main/' directory during compilation.
+main/*.aux
+main/*.log
+main/*.out
+main/*.toc
+main/*.bbl
+main/*.blg
+main/*.fls
+main/*.fdb_latexmk
+
+# The generated main.tex file if it's created by a pre-processor (you were ignoring it previously)
+# If main/main.tex is NOT generated, DELETE the line below.
+main/main.tex
+
+# --- Generated PDF ---
+# The final, generated PDF, stored in 'public/'.
+/public/*.pdf
+
+# --- Directories to Ignore Everywhere ---
+__pycache__/
+node_modules/
+/publish/
+
+# --- Python Cache Files ---
+*.pyc
+
+# --- Editor/OS Temporary Files ---
+.DS_Store
+*.swp
+Thumbs.db
+
+# --- Editor Config Directories ---
+.vscode/
+.idea/

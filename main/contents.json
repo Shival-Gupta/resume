@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "name": "Shival Gupta",
+    "phone": "+91 7091041542",
+    "email": "sgupta.5545@gmail.com",
+    "github": "https://github.com/shival-gupta/",
+    "linkedin": "https://linkedin.com/in/shival-gupta/",
+    "website": "https://shivalgupta.me/",
+    "photo": "ShivalGuptaProfilePhoto.jpg"
+  },
+  "technical_skills": {
+    "languages": ["Java", "Python", "C", "C++", "C#", "SQL"],
+    "web_development": ["Next.js", "Tailwind CSS", "Clerk.js", "Prisma ORM", "PostgreSQL", "WebSockets"],
+    "ai_robotics_iot": ["Agentic AI", "RAG", "ROS", "Arduino", "Jetson Nano"],
+    "tools": ["Docker", "Blender", "Unity", "OpenXR (VR)"]
+  },
+  "projects": [
+    {
+      "title": "Autonomous Omni-Wheel Library Robot (Capstone)",
+      "duration": "Jan 2025 -- Apr 2025",
+      "tech": ["Jetson Nano", "ROS", "Arduino", "Python", "C++"],
+      "items": [
+        "Integrated Jetson Nano with Arduino motor control and AI navigation.",
+        "Implemented ROS-based LiDAR mapping and IR-guided line following."
+      ]
+    },
+    {
+      "title": "Smart Home Automation (Samsung PRISM Worklet)",
+      "duration": "Sep 2024 -- Jun 2025",
+      "tech": ["Unity", "crewAI", "WebSockets", "Next.js"],
+      "certificate": "https://drive.google.com/file/d/1vIS_oU6KLQu_Cn1QFSKIymVa99qM6wlP/view",
+      "items": [
+        "Built 3D smart home simulation in Unity as a testbed for AI agents.",
+        "Connected AI backend with real-time device orchestration via WebSocket/HTTP.",
+        "Developed control dashboard for monitoring and agent-based interaction."
+      ]
+    },
+    {
+      "title": "Samsung Store XR (Samsung PRISM Challenge, Winner)",
+      "duration": "Feb 2024 -- Jul 2024",
+      "tech": ["Unity", "OpenXR", "Blender"],
+      "certificate": "https://drive.google.com/file/d/19xeCrN3ycqXisyDDgIYeygRRVawMKOxu/view",
+      "items": [
+        "Built VR prototype of Samsung’s store for Meta Quest and other VR devices.",
+        "Added teleportation, interactive product showcase, and cart system."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "XR Developer Intern",
+      "duration": "Feb 2025 -- Jun 2025",
+      "company": "SatoriXR, Chennai, India",
+      "certificate": "https://drive.google.com/file/d/1bNjF0U-Ky607ieK9sgrpSHBlJc7LPmNN/view",
+      "items": [
+        "Led a team of 4 developers and a 3D artist on a defense-focused VR simulation.",
+        "Processed DEMs and satellite imagery into interactive Unity terrains.",
+        "Implemented missile trajectory modeling and Google Earth--style tools.",
+        "Helped hosting OpenProject (OpenSource Jira alternative) on Azure."
+      ]
+    },
+    {
+      "role": "Software Developer Intern",
+      "duration": "Sep 2023 -- Nov 2023",
+      "company": "Airtel Payments Bank, New Delhi",
+      "certificate": "https://drive.google.com/file/d/1zCj8CKZbHcKEj6LS8N3VzG33aIENUIZA/view",
+      "items": [
+        "Worked in Agile/Scrum workflows for fintech app development.",
+        "Built a secure full-stack B2B SaaS prototype for transactions.",
+        "Implemented Next.js + Prisma + PostgreSQL stack with encryption.",
+        "Integrated third-party auth (Clerk.js) and modern UI (Tailwind + shadcn)."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "B.Tech in Computer Science and Engineering with Specialization in AI and Robotics",
+      "grade": "CGPA: 7.84",
+      "institution": "Vellore Institute of Technology, Chennai",
+      "duration": "2021 -- 2025 (Graduated)"
+    },
+    {
+      "title": "Senior Secondary (XII) - CBSE",
+      "grade": "62.17%",
+      "institution": "St. Karen's High School, Patna",
+      "duration": "2020"
+    },
+    {
+      "title": "Secondary (X) - CBSE",
+      "grade": "75.67%",
+      "institution": "St. Karen's High School, Patna",
+      "duration": "2018"
+    }
+  ],
+  "extracurricular": ["Piano", "Skating", "Badminton", "Photography", "Videography"]
+}

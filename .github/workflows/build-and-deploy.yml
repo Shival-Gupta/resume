@@ -1,0 +1,84 @@
+name: Build (main -> gh-pages)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install LaTeX (xelatex)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            texlive-xetex \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            latexmk \
+            fonts-roboto
+
+      - name: Validate JSON
+        run: python -m json.tool main/contents.json
+
+      - name: Generate TeX from JSON
+        run: python3 main/scripts/compile_tex.py
+
+      - name: Build PDF (main/main.tex -> main/RESUME_ShivalGupta.pdf)
+        run: |
+          cd main
+          if command -v latexmk >/dev/null 2>&1; then
+            latexmk -pdf -xelatex -silent -jobname=RESUME_ShivalGupta main.tex
+          else
+            xelatex -interaction=nonstopmode -jobname=RESUME_ShivalGupta main.tex || true
+            xelatex -interaction=nonstopmode -jobname=RESUME_ShivalGupta main.tex || true
+          fi
+      
+      # - name: Run build.sh (generate and move artifacts)
+      #   run: |
+      #     chmod +x main/scripts/build.sh
+      #     ./main/scripts/build.sh
+
+      - name: Prepare publish directory
+        run: |
+          rm -rf publish
+          mkdir -p publish
+
+          # copy index.html at repo root
+          cp -v index.html publish/index.html
+
+          # copy the freshly built PDF from main into publish root
+          if [ -f main/RESUME_ShivalGupta.pdf ]; then
+            cp -v main/RESUME_ShivalGupta.pdf publish/RESUME_ShivalGupta.pdf
+          fi
+
+          # optionally copy profile photo from main (if you keep it in main/)
+          if [ -f main/ShivalGuptaProfilePhoto.jpg ]; then
+            cp -v main/ShivalGuptaProfilePhoto.jpg publish/
+          fi
+
+          echo "Publish directory contents:"
+          ls -la publish || true
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+
+      - name: Done
+        run: echo "Deployed to gh-pages."
